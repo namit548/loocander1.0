@@ -10,7 +10,7 @@ public class FirebaseUserManager : MonoBehaviour
     public Button saveProfessionButton; // Button to save the profession
 
     // Class to represent a user profile
-    public class UserProfile
+    public class UserProfile  // data store karnai ke liye 
     {
         public string UserNameMessage; // Variable to store the user name
         public string UserProfessionMessage; // Variable to store the profession
