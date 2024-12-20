@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GpsForUser2.unity
     guid: e9d45603d80c28943a9d223382276da0
+  - enabled: 1
+    path: Assets/Scenes/LoocanderScene.unity
+    guid: 5316c094097fa2a43ad27525ca066c55
   m_configObjects: {}

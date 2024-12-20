@@ -554,7 +554,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &102219862
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1565,9 +1565,6 @@ MonoBehaviour:
   GPSStatus: {fileID: 259715465}
   LatitudeValue: {fileID: 165585585}
   LongitudeValue: {fileID: 1577749885}
-  AltitudeValue: {fileID: 1114040582}
-  HorizontalAccuracy: {fileID: 0}
-  TimeStampValue: {fileID: 0}
 --- !u!1 &384364509
 GameObject:
   m_ObjectHideFlags: 0
@@ -5376,9 +5373,6 @@ MonoBehaviour:
   GPSStatus: {fileID: 259715465}
   LatitudeValue: {fileID: 165585585}
   LongitudeValue: {fileID: 1577749885}
-  AltitudeValue: {fileID: 1114040582}
-  HorizontalAccuracy: {fileID: 0}
-  TimeStampValue: {fileID: 0}
 --- !u!114 &1564022182
 MonoBehaviour:
   m_ObjectHideFlags: 0

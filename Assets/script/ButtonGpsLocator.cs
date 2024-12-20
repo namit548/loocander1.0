@@ -302,9 +302,9 @@ public class ButtonGpsLocator : MonoBehaviour
     public Text GPSStatus;
     public Text LatitudeValue;
     public Text LongitudeValue;
-    public Text AltitudeValue;
-    public Text HorizontalAccuracy;
-    public Text TimeStampValue;
+   // public Text AltitudeValue;  
+   // public Text HorizontalAccuracy;
+   // public Text TimeStampValue;
 
     public static float Latitude;//changes for Firebase
     public static float Longitude;//changes for Firebase
@@ -388,9 +388,9 @@ public class ButtonGpsLocator : MonoBehaviour
             GPSStatus.text = "Updating...";
             LatitudeValue.text = Input.location.lastData.latitude.ToString();
             LongitudeValue.text = Input.location.lastData.longitude.ToString();
-            AltitudeValue.text = Input.location.lastData.altitude.ToString();
-            HorizontalAccuracy.text = Input.location.lastData.horizontalAccuracy.ToString();
-            TimeStampValue.text = Input.location.lastData.timestamp.ToString();
+            //AltitudeValue.text = Input.location.lastData.altitude.ToString();
+            //HorizontalAccuracy.text = Input.location.lastData.horizontalAccuracy.ToString();
+            //TimeStampValue.text = Input.location.lastData.timestamp.ToString();
             GPSStatus.text = "Location Updated";
         }
         else
