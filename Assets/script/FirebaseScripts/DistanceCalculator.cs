@@ -68,7 +68,7 @@ public class DistanceCalculator : MonoBehaviour
             // If within the threshold, add to the list
             if (distance <= maxDistanceMeters)//distance = distance<maxdsitance
             {
-                nearbyUsers.Add($"{user.username} ({user.userprofession}) - {distance:F2} meters away \n");
+                nearbyUsers.Add($"Name:{user.username}\n About:{user.userprofession}\n Distance:{distance:F2} meters away \n");
             }
         }
 
